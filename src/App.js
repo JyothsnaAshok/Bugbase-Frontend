@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   Layout,
   Typography,
@@ -46,7 +46,6 @@ import {
 } from "@ant-design/icons";
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
-const { SubMenu } = Menu;
 const { Option } = Select;
 
 const percentage1 = 50;
@@ -87,17 +86,17 @@ const data = [
   },
 ];
 
-const Home = () => <img src={HomeIcon} />;
+const Home = () => <img src={HomeIcon} alt="" />;
 
-const myTeam = () => <img src={People} />;
+const myTeam = () => <img src={People} alt="" />;
 
-const Task = () => <img src={Case} />;
+const Task = () => <img src={Case} alt="" />;
 
-const Calendar = () => <img src={CalendarIcon} />;
+const Calendar = () => <img src={CalendarIcon} alt="" />;
 
-const Report = () => <img src={ReportIcon} />;
+const Report = () => <img src={ReportIcon} alt="" />;
 
-const Settings = () => <img src={Setting} />;
+const Settings = () => <img src={Setting} alt="" />;
 
 const IconFont = createFromIconfontCN({
   scriptUrl: "//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js",
@@ -236,6 +235,7 @@ const App = () => (
                   Works
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -268,6 +268,7 @@ const App = () => (
                   Analytics
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -300,6 +301,7 @@ const App = () => (
                   Statistics
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -333,6 +335,7 @@ const App = () => (
                   Tasks
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -382,6 +385,7 @@ const App = () => (
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -423,6 +427,7 @@ const App = () => (
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
+                      href=""
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -471,7 +476,7 @@ const App = () => (
                   <div className="profile-wrapper">
                     <div className="profile">
                       <div className="image">
-                        <img src={profile1}></img>
+                        <img src={profile1} alt=""></img>
                       </div>
                       <div className="profile-details">
                         <span className="name">{item.name}</span>
