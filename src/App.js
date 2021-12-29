@@ -235,7 +235,7 @@ const App = () => (
                   Works
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -268,7 +268,7 @@ const App = () => (
                   Analytics
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -301,7 +301,7 @@ const App = () => (
                   Statistics
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -335,7 +335,7 @@ const App = () => (
                   Tasks
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -385,7 +385,7 @@ const App = () => (
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -427,7 +427,7 @@ const App = () => (
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
                     <a
-                      href=""
+                      href="#"
                       className="ant-dropdown-link"
                       onClick={(e) => e.preventDefault()}
                     >
