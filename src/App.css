@@ -278,3 +278,7 @@
 .ant-select-selection-item {
   border-bottom: 1px solid;
 }
+
+.dashboard .ant-btn {
+  padding: 0;
+}

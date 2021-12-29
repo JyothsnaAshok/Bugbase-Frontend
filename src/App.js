@@ -234,13 +234,9 @@ const App = () => (
                 <div className="card-title">
                   Works
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
                 <div className="card-desc">
@@ -267,13 +263,9 @@ const App = () => (
                 <div className="card-title">
                   Analytics
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
                 <div className="card-desc">
@@ -300,13 +292,9 @@ const App = () => (
                 <div className="card-title">
                   Statistics
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
                 <div className="card-desc">
@@ -334,13 +322,9 @@ const App = () => (
                 <div className="card-title">
                   Tasks
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
                 <div className="card-desc">
@@ -384,13 +368,9 @@ const App = () => (
                     <Option value="year">1 year</Option>
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
               </div>
@@ -426,13 +406,9 @@ const App = () => (
                     <Option value="year">1 year</Option>
                   </Select>
                   <Dropdown overlay={menu} trigger={["click"]}>
-                    <a
-                      href="#"
-                      className="ant-dropdown-link"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    <Button type="text" size={2}>
                       <MoreOutlined />
-                    </a>
+                    </Button>
                   </Dropdown>
                 </div>
               </div>
